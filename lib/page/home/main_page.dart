@@ -1,4 +1,6 @@
 
+
+import 'package:aplikasibelajarsholat/page/gerakanSholat/gerakan_sholat_page.dart';
 import 'package:aplikasibelajarsholat/page/home/header.dart';
 import 'package:aplikasibelajarsholat/page/home/menuAlertSholat.dart';
 import 'package:aplikasibelajarsholat/page/niatSholat/niat_sholat_page.dart';
@@ -95,18 +97,18 @@ class _MainPageState extends State<MainPage> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => NiatSholat()));
+                                builder: (context) => GerakanSholat()));
                       },
                       child: Column(
                         children: [
                           Image(
-                            image: AssetImage("assets/images/ic_niat.png"),
-                            height: 100,
-                            width: 100,
+                            image: AssetImage("assets/images/bg_gerakan.jpg"),
+                            height: 120,
+                            width: 120,
                           ),
-                          SizedBox(height: 10),
+                          SizedBox(height: 5),
                           Text(
-                            "Niat Sholat",
+                            "Gerakan Sholat",
                             style: TextStyle(
                                 fontSize: 14, fontWeight: FontWeight.bold),
                           ),
@@ -141,21 +143,18 @@ class _MainPageState extends State<MainPage> {
                       highlightColor: Colors.transparent,
                       splashColor: Colors.transparent,
                       onTap: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => NiatSholat()));
+                        //nav route
                       },
                       child: Column(
                         children: [
                           Image(
-                            image: AssetImage("assets/images/ic_niat.png"),
-                            height: 100,
-                            width: 100,
+                            image: AssetImage("assets/images/bg_surah.jpg"),
+                            height: 120,
+                            width: 120,
                           ),
-                          SizedBox(height: 10),
+                          SizedBox(height: 5),
                           Text(
-                            "Niat Sholat",
+                            "Surat Surat Pendek",
                             style: TextStyle(
                                 fontSize: 14, fontWeight: FontWeight.bold),
                           ),
@@ -185,21 +184,18 @@ class _MainPageState extends State<MainPage> {
                       highlightColor: Colors.transparent,
                       splashColor: Colors.transparent,
                       onTap: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => NiatSholat()));
+                        //nav route
                       },
                       child: Column(
                         children: [
                           Image(
-                            image: AssetImage("assets/images/ic_niat.png"),
-                            height: 100,
-                            width: 100,
+                            image: AssetImage("assets/images/bg_jadwal.jpg"),
+                            height: 120,
+                            width: 120,
                           ),
-                          SizedBox(height: 10),
+                          SizedBox(height: 5),
                           Text(
-                            "Niat Sholat",
+                            "Jadwal Sholat",
                             style: TextStyle(
                                 fontSize: 14, fontWeight: FontWeight.bold),
                           ),

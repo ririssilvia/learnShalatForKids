@@ -75,6 +75,18 @@ flutter:
   - assets/images/bg_bacaan2.jpg
   - assets/images/bg_niatsholat.png
   - assets/images/bg_bacaansholat.png
+  - assets/images/bg_gerakan.jpg
+  - assets/images/bg_gerak2.png
+  - assets/images/bg_1.png
+  - assets/images/bg_2.png
+  - assets/images/bg_3.png
+  - assets/images/bg_4.png
+  - assets/images/bg_5.png
+  - assets/images/bg_6.png
+  - assets/images/bg_7.png
+  - assets/images/bg_8.png
+  - assets/images/bg_surah.jpg
+  - assets/images/bg_jadwal.jpg
   - assets/data/bacaanshalat.json
   - assets/data/niatshalat.json
 
