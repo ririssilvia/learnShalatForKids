@@ -1,4 +1,5 @@
 import 'package:aplikasibelajarsholat/page/home/main_page.dart';
+import 'package:aplikasibelajarsholat/page/quran/details/detail_surah_view.dart';
 import 'package:aplikasibelajarsholat/page/splashScreen/splashScreen.dart';
 import 'package:flutter/material.dart';
 
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => SplashScreen(),
         '/home': (context) => const MainPage(),
+        '/detail-surah': (context) => const DetailSurahView(),
       },
     );
   }

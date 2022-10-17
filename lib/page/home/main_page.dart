@@ -4,6 +4,7 @@ import 'package:aplikasibelajarsholat/page/gerakanSholat/gerakan_sholat_page.dar
 import 'package:aplikasibelajarsholat/page/home/header.dart';
 import 'package:aplikasibelajarsholat/page/home/menuAlertSholat.dart';
 import 'package:aplikasibelajarsholat/page/niatSholat/niat_sholat_page.dart';
+import 'package:aplikasibelajarsholat/page/quran/home_quran.dart';
 import 'package:flutter/material.dart';
 
 class MainPage extends StatefulWidget {
@@ -143,7 +144,10 @@ class _MainPageState extends State<MainPage> {
                       highlightColor: Colors.transparent,
                       splashColor: Colors.transparent,
                       onTap: () {
-                        //nav route
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => HomeQuran()));
                       },
                       child: Column(
                         children: [
@@ -154,7 +158,7 @@ class _MainPageState extends State<MainPage> {
                           ),
                           SizedBox(height: 5),
                           Text(
-                            "Surat Surat Pendek",
+                            "Alquran",
                             style: TextStyle(
                                 fontSize: 14, fontWeight: FontWeight.bold),
                           ),

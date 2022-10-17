@@ -37,6 +37,12 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   google_fonts: ^3.0.1
+  http: ^0.13.5
+  just_audio: ^0.9.20
+  lottie: ^1.4.1
+  path_provider: ^2.0.11
+  scroll_to_index: ^3.0.1
+  shared_preferences: ^2.0.15
 
 dev_dependencies:
   flutter_test:
@@ -85,8 +91,11 @@ flutter:
   - assets/images/bg_6.png
   - assets/images/bg_7.png
   - assets/images/bg_8.png
+  - assets/images/alquran.png
+  - assets/images/quran2.png
   - assets/images/bg_surah.jpg
   - assets/images/bg_jadwal.jpg
+  - assets/images/octagonal.png
   - assets/data/bacaanshalat.json
   - assets/data/niatshalat.json
 
