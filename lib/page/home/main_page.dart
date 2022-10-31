@@ -3,6 +3,7 @@
 import 'package:aplikasibelajarsholat/page/gerakanSholat/gerakan_sholat_page.dart';
 import 'package:aplikasibelajarsholat/page/home/header.dart';
 import 'package:aplikasibelajarsholat/page/home/menuAlertSholat.dart';
+import 'package:aplikasibelajarsholat/page/jadwalsholat/screens/jadwal_solat_screen.dart';
 import 'package:aplikasibelajarsholat/page/niatSholat/niat_sholat_page.dart';
 import 'package:aplikasibelajarsholat/page/quran/home_quran.dart';
 import 'package:flutter/material.dart';
@@ -19,6 +20,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 165, 211, 241),
       body: Padding(
         padding: EdgeInsets.only(top: 2.0),
         child: Column(
@@ -188,7 +190,10 @@ class _MainPageState extends State<MainPage> {
                       highlightColor: Colors.transparent,
                       splashColor: Colors.transparent,
                       onTap: () {
-                        //nav route
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => JadwalSolatScreen()));
                       },
                       child: Column(
                         children: [

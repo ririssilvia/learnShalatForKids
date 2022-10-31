@@ -37,18 +37,18 @@ class HeaderWithSearchBox extends StatelessWidget {
                 )
               ],
             ),
-            child: Align(
-              alignment: Alignment.topLeft,
-              child: IconButton(
-                onPressed: () {
-                  // Validate returns true if the form is valid, or false otherwise.
-                  {
-                    Navigator.pushNamed(context, '/');
-                  }
-                },
-                icon: const Icon(Icons.arrow_back, color: Colors.black),
-              ),
-            ),
+            // child: Align(
+            //   alignment: Alignment.topLeft,
+            //   child: IconButton(
+            //     onPressed: () {
+            //       // Validate returns true if the form is valid, or false otherwise.
+            //       {
+            //         Navigator.pushNamed(context, '/');
+            //       }
+            //     },
+            //     icon: const Icon(Icons.arrow_back, color: Colors.white),
+            //   ),
+            // ),
           ),
           Container(
               padding: EdgeInsets.only(top: 2.0),
@@ -61,7 +61,7 @@ class HeaderWithSearchBox extends StatelessWidget {
                 ),
               )),
           Container(
-              padding: EdgeInsets.only(top: 50.0, left: 10.0),
+              padding: EdgeInsets.only(top: 50.0, left: 20.0),
               child: Row(
                 children: <Widget>[
                   Column(
@@ -69,20 +69,20 @@ class HeaderWithSearchBox extends StatelessWidget {
                     children: <Widget>[
                       Text(
                         'Home',
-                        style: GoogleFonts.kreon(
+                        style:  GoogleFonts.poppins(
                           fontSize: 50,
-                          color: Colors.black,
+                          color: Colors.white,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
                       SizedBox(
-                        height: 5.0,
+                        height: 2.0,
                       ),
                       Text(
                         'Aplikasi Belajar Sholat For Kids',
-                        style: GoogleFonts.kreon(
-                          fontSize: 14,
-                          color: Colors.black,
+                        style: GoogleFonts.poppins(
+                          fontSize: 11,
+                          color: Colors.white,
                           fontWeight: FontWeight.bold,
                         ),
                       ),

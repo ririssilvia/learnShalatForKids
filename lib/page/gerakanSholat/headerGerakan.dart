@@ -22,7 +22,7 @@ class HeaderGerakanSholat extends StatelessWidget {
             ),
             height: 160,
             decoration: const BoxDecoration(
-              color: Color.fromARGB(255, 50, 115, 168),
+              color: Color.fromARGB(255, 78, 153, 214),
               borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(36),
                 bottomRight: Radius.circular(36),

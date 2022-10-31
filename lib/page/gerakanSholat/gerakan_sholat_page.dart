@@ -18,6 +18,7 @@ class _GerakanSholatState extends State<GerakanSholat> {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 165, 211, 241),
       body: Padding(
         padding: EdgeInsets.only(top: 2.0),
         child: ListView(
@@ -32,7 +33,6 @@ class _GerakanSholatState extends State<GerakanSholat> {
                   width: 150,
                   
                   decoration: BoxDecoration(
-                    // color: Colors.white,
                     color: Color.fromARGB(255, 29, 87, 134),
                     borderRadius: BorderRadius.circular(10),
                     boxShadow: [
@@ -64,7 +64,7 @@ class _GerakanSholatState extends State<GerakanSholat> {
                           Text(
                             "Takbiratul Ihram",
                             style: TextStyle(
-                                fontSize: 14, fontWeight: FontWeight.bold),
+                                fontSize: 15, fontWeight: FontWeight.bold, color: Colors.white),
                           ),
                         ],
                       ),
@@ -108,7 +108,7 @@ class _GerakanSholatState extends State<GerakanSholat> {
                           Text(
                             "Iftitah",
                             style: TextStyle(
-                                fontSize: 14, fontWeight: FontWeight.bold),
+                                fontSize: 15, fontWeight: FontWeight.bold, color: Colors.white),
                           ),
                         ],
                       ),
@@ -150,14 +150,15 @@ class _GerakanSholatState extends State<GerakanSholat> {
                         children: [
                           Image(
                             image: AssetImage("assets/images/bg_3.png"),
-                            height: 100,
-                            width: 100,
+                            height: 120,
+                            width: 150,
                           ),
-                          SizedBox(height: 10),
+                          SizedBox(height: 5),
                           Text(
                             "Ruku'",
                             style: TextStyle(
-                                fontSize: 14, fontWeight: FontWeight.bold),
+                                fontSize: 15, fontWeight: FontWeight.bold,
+                                color: Colors.white),
                           ),
                         ],
                       ),
@@ -194,14 +195,15 @@ class _GerakanSholatState extends State<GerakanSholat> {
                         children: [
                           Image(
                             image: AssetImage("assets/images/bg_4.png"),
-                            height: 100,
-                            width: 100,
+                            height: 120,
+                            width: 120,
                           ),
-                          SizedBox(height: 10),
+                          SizedBox(height: 5),
                           Text(
                             "I'tidal",
                             style: TextStyle(
-                                fontSize: 14, fontWeight: FontWeight.bold),
+                                fontSize: 15, fontWeight: FontWeight.bold,
+                                color: Colors.white),
                           ),
                         ],
                       ),
@@ -243,15 +245,15 @@ class _GerakanSholatState extends State<GerakanSholat> {
                         children: [
                           Image(
                             image: AssetImage("assets/images/bg_5.png"),
-                            height: 100,
-                            width: 100,
+                            height: 120,
+                            width: 120,
                           ),
-                          SizedBox(height: 10),
+                          SizedBox(height: 5),
                           Text(
                             "Sujud",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 14, fontWeight: FontWeight.bold),
+                                fontSize: 15, fontWeight: FontWeight.bold, color: Colors.white),
                           ),
                         ],
                       ),
@@ -288,14 +290,14 @@ class _GerakanSholatState extends State<GerakanSholat> {
                         children: [
                           Image(
                             image: AssetImage("assets/images/bg_6.png"),
-                            height: 100,
-                            width: 100,
+                            height: 120,
+                            width: 120,
                           ),
-                          SizedBox(height: 10),
+                          SizedBox(height: 5),
                           Text(
                             "Duduk tasyahud awal",
                             style: TextStyle(
-                                fontSize: 14, fontWeight: FontWeight.bold),
+                                fontSize: 15, fontWeight: FontWeight.bold, color: Colors.white),
                           ),
                         ],
                       ),
@@ -337,14 +339,15 @@ class _GerakanSholatState extends State<GerakanSholat> {
                         children: [
                           Image(
                             image: AssetImage("assets/images/bg_7.png"),
-                            height: 100,
-                            width: 100,
+                            height: 110,
+                            width: 110,
                           ),
-                          SizedBox(height: 10),
+                          SizedBox(height: 5),
                           Text(
                             "Duduk tasyahud akhir",
                             style: TextStyle(
-                                fontSize: 14, fontWeight: FontWeight.bold),
+                                fontSize: 15, fontWeight: FontWeight.bold,
+                                color: Colors.white),
                           ),
                         ],
                       ),
@@ -381,14 +384,14 @@ class _GerakanSholatState extends State<GerakanSholat> {
                         children: [
                           Image(
                             image: AssetImage("assets/images/bg_8.png"),
-                            height: 100,
-                            width: 100,
+                            height: 120,
+                            width: 120,
                           ),
-                          SizedBox(height: 10),
+                          SizedBox(height: 5),
                           Text(
                             "Salam",
                             style: TextStyle(
-                                fontSize: 14, fontWeight: FontWeight.bold),
+                                fontSize: 15, fontWeight: FontWeight.bold, color: Colors.white),
                           ),
                         ],
                       ),

@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:aplikasibelajarsholat/model/model_bacaan.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' as rootBundle;
+import 'package:google_fonts/google_fonts.dart';
 
 
 class BacaanSholat extends StatefulWidget {
@@ -22,7 +23,7 @@ class _BacaanSholatState extends State<BacaanSholat> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //backgroundColor: Color(0xff0e1446),
+      backgroundColor: Color.fromARGB(255, 165, 211, 241),
       body: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -74,18 +75,20 @@ class _BacaanSholatState extends State<BacaanSholat> {
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
-                            const Text(
+                            Text(
                               'Bacaan Sholat',
-                              style: TextStyle(
+                              style: GoogleFonts.kreon(
                                 fontSize: 35,
                                 fontWeight: FontWeight.bold,
+                                color: Colors.black,
                               ),
                             ),
-                            const Text(
+                            Text(
                               'Bacaan Sholat wajib 5 Waktu',
-                              style: TextStyle(
+                              style: GoogleFonts.kreon(
                                 fontSize: 15,
-                                // fontStyle: FontStyle.italic,
+                                fontWeight: FontWeight.w500,
+                                color: Colors.black,
                               ),
                             ),
                           ],

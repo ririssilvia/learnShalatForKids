@@ -17,14 +17,14 @@ class BodyWelcome extends StatelessWidget {
             Text(
                 'Learn Sholat',
                 style: GoogleFonts.kreon(
-                  fontSize: 40,
+                  fontSize: 45,
                   fontWeight: FontWeight.bold,
                 ),
               ),
             Text(
               "Aplikasi Belajar Sholat Untuk Anak Anak",
               style: GoogleFonts.kreon(
-                  fontSize: 10,
+                  fontSize: 15,
                   fontWeight: FontWeight.bold,
                 ),
             ),
@@ -52,7 +52,7 @@ class BodyWelcome extends StatelessWidget {
                   }
                 },
                 style: TextButton.styleFrom(
-                  backgroundColor: Color.fromARGB(255, 109, 125, 230),
+                  backgroundColor: Colors.indigo[700],
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(17),
                   ),

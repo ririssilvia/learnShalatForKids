@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:aplikasibelajarsholat/model/model_niat.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' as rootBundle;
-
+import 'package:google_fonts/google_fonts.dart';
 
 class NiatSholat extends StatefulWidget {
   const NiatSholat({Key? key}) : super(key: key);
@@ -22,7 +22,7 @@ class _NiatSholatState extends State<NiatSholat> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //backgroundColor: Colors.white,
+      backgroundColor: Color.fromARGB(255, 165, 211, 241),
       body: SafeArea(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -74,18 +74,20 @@ class _NiatSholatState extends State<NiatSholat> {
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: <Widget>[
-                            const Text(
+                            Text(
                               'Niat Sholat',
-                              style: TextStyle(
-                                fontSize: 35,
+                              style: GoogleFonts.kreon(
+                                fontSize: 40,
+                                color: Colors.black,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
-                            const Text(
+                            Text(
                               'Niat Sholat wajib 5 Waktu',
-                              style: TextStyle(
+                              style: GoogleFonts.kreon(
                                 fontSize: 15,
-                                // fontStyle: FontStyle.italic,
+                                fontWeight: FontWeight.w500,
+                                color: Colors.black,
                               ),
                             ),
                           ],

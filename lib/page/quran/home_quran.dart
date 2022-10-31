@@ -14,6 +14,7 @@ class HomeQuran extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 165, 211, 241),
       body: DefaultTabController(
         length: 1,
         child: Padding(
@@ -213,9 +214,9 @@ class HomeQuran extends StatelessWidget {
                                             const SizedBox(height: 5),
                                             Text(
                                               'Al-Quran',
-                                              style: const TextStyle(
+                                              style: GoogleFonts.kreon(
+                                                fontSize: 40,
                                                 color: Colors.white,
-                                                fontSize: 35,
                                                 fontWeight: FontWeight.bold,
                                               ),
                                             ),
