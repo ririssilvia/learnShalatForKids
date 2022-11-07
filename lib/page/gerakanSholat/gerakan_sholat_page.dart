@@ -22,16 +22,15 @@ class _GerakanSholatState extends State<GerakanSholat> {
       body: Padding(
         padding: EdgeInsets.only(top: 2.0),
         child: ListView(
-          //crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             HeaderGerakanSholat(),
             Row(
               //ROW 1
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Container(
-                  height: 150,
-                  width: 150,
-                  
+                  height: 140,
+                  width: 140,
                   decoration: BoxDecoration(
                     color: Color.fromARGB(255, 29, 87, 134),
                     borderRadius: BorderRadius.circular(10),
@@ -57,8 +56,8 @@ class _GerakanSholatState extends State<GerakanSholat> {
                         children: [
                           Image(
                             image: AssetImage("assets/images/bg_1.png"),
-                            height: 120,
-                            width: 120,
+                            height: 105,
+                            width: 105,
                           ),
                           SizedBox(height: 5),
                           Text(
@@ -72,10 +71,10 @@ class _GerakanSholatState extends State<GerakanSholat> {
                   ),
                 ),
                 Container(
-                  height: 150,
-                  width: 150,
+                  height: 140,
+                  width: 140,
                   decoration: BoxDecoration(
-                     color: Color.fromARGB(255, 29, 87, 134),
+                    color: Color.fromARGB(255, 29, 87, 134),
                     borderRadius: BorderRadius.circular(10),
                     boxShadow: [
                       BoxShadow(
@@ -101,8 +100,8 @@ class _GerakanSholatState extends State<GerakanSholat> {
                         children: [
                           Image(
                             image: AssetImage("assets/images/bg_2.png"),
-                            height: 120,
-                            width: 120,
+                            height: 105,
+                            width: 105,
                           ),
                           SizedBox(height: 5),
                           Text(
@@ -119,10 +118,11 @@ class _GerakanSholatState extends State<GerakanSholat> {
             ),
             Row(
               //ROW 2
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Container(
-                  height: 150,
-                  width: 150,
+                  height: 140,
+                  width: 140,
                   decoration: BoxDecoration(
                      color: Color.fromARGB(255, 29, 87, 134),
                     borderRadius: BorderRadius.circular(10),
@@ -150,8 +150,8 @@ class _GerakanSholatState extends State<GerakanSholat> {
                         children: [
                           Image(
                             image: AssetImage("assets/images/bg_3.png"),
-                            height: 120,
-                            width: 150,
+                            height: 105,
+                            width: 105,
                           ),
                           SizedBox(height: 5),
                           Text(
@@ -166,8 +166,8 @@ class _GerakanSholatState extends State<GerakanSholat> {
                   ),
                 ),
                 Container(
-                  height: 150,
-                  width: 150,
+                  height: 140,
+                  width: 140,
                   decoration: BoxDecoration(
                      color: Color.fromARGB(255, 29, 87, 134),
                     borderRadius: BorderRadius.circular(10),
@@ -195,8 +195,8 @@ class _GerakanSholatState extends State<GerakanSholat> {
                         children: [
                           Image(
                             image: AssetImage("assets/images/bg_4.png"),
-                            height: 120,
-                            width: 120,
+                            height: 105,
+                            width: 105,
                           ),
                           SizedBox(height: 5),
                           Text(
@@ -214,10 +214,11 @@ class _GerakanSholatState extends State<GerakanSholat> {
             ),
             Row(
               //ROW 3
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Container(
-                  height: 150,
-                  width: 150,
+                  height: 140,
+                  width: 140,
                   decoration: BoxDecoration(
                      color: Color.fromARGB(255, 29, 87, 134),
                     borderRadius: BorderRadius.circular(10),
@@ -245,8 +246,8 @@ class _GerakanSholatState extends State<GerakanSholat> {
                         children: [
                           Image(
                             image: AssetImage("assets/images/bg_5.png"),
-                            height: 120,
-                            width: 120,
+                            height: 105,
+                            width: 105,
                           ),
                           SizedBox(height: 5),
                           Text(
@@ -261,8 +262,8 @@ class _GerakanSholatState extends State<GerakanSholat> {
                   ),
                 ),
                 Container(
-                  height: 150,
-                  width: 150,
+                  height: 140,
+                  width: 140,
                   decoration: BoxDecoration(
                      color: Color.fromARGB(255, 29, 87, 134),
                     borderRadius: BorderRadius.circular(10),
@@ -290,12 +291,13 @@ class _GerakanSholatState extends State<GerakanSholat> {
                         children: [
                           Image(
                             image: AssetImage("assets/images/bg_6.png"),
-                            height: 120,
-                            width: 120,
+                            height: 97,
+                            width: 97,
                           ),
                           SizedBox(height: 5),
                           Text(
                             "Duduk tasyahud awal",
+                            textAlign: TextAlign.center,
                             style: TextStyle(
                                 fontSize: 15, fontWeight: FontWeight.bold, color: Colors.white),
                           ),
@@ -308,12 +310,13 @@ class _GerakanSholatState extends State<GerakanSholat> {
             ),
             Row(
               //ROW 4
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Container(
-                  height: 150,
-                  width: 150,
+                  height: 140,
+                  width: 140,
                   decoration: BoxDecoration(
-                     color: Color.fromARGB(255, 29, 87, 134),
+                    color: Color.fromARGB(255, 29, 87, 134),
                     borderRadius: BorderRadius.circular(10),
                     boxShadow: [
                       BoxShadow(
@@ -339,12 +342,13 @@ class _GerakanSholatState extends State<GerakanSholat> {
                         children: [
                           Image(
                             image: AssetImage("assets/images/bg_7.png"),
-                            height: 110,
-                            width: 110,
+                            height: 97,
+                            width: 97,
                           ),
                           SizedBox(height: 5),
                           Text(
                             "Duduk tasyahud akhir",
+                            textAlign: TextAlign.center,
                             style: TextStyle(
                                 fontSize: 15, fontWeight: FontWeight.bold,
                                 color: Colors.white),
@@ -355,8 +359,8 @@ class _GerakanSholatState extends State<GerakanSholat> {
                   ),
                 ),
                 Container(
-                  height: 150,
-                  width: 150,
+                  height: 140,
+                  width: 140,
                   decoration: BoxDecoration(
                      color: Color.fromARGB(255, 29, 87, 134),
                     borderRadius: BorderRadius.circular(10),
@@ -384,8 +388,8 @@ class _GerakanSholatState extends State<GerakanSholat> {
                         children: [
                           Image(
                             image: AssetImage("assets/images/bg_8.png"),
-                            height: 120,
-                            width: 120,
+                            height: 105,
+                            width: 105,
                           ),
                           SizedBox(height: 5),
                           Text(

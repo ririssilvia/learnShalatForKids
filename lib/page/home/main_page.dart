@@ -24,17 +24,17 @@ class _MainPageState extends State<MainPage> {
       body: Padding(
         padding: EdgeInsets.only(top: 2.0),
         child: Column(
-          //crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             HeaderWithSearchBox(
               onChanged: (value) {},
             ),
             Row(
               //ROW 1
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Container(
-                  height: 150,
-                  width: 150,
+                  height: 145,
+                  width: 145,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(10),
@@ -47,7 +47,7 @@ class _MainPageState extends State<MainPage> {
                     ],
                   ),
                   margin:
-                      EdgeInsets.only(top: 50, left: 20, right: 20, bottom: 20),
+                      EdgeInsets.only(top: 50, left: 10, right: 10, bottom: 10),
                   child: Expanded(
                     child: InkWell(
                       highlightColor: Colors.transparent,
@@ -77,8 +77,8 @@ class _MainPageState extends State<MainPage> {
                   ),
                 ),
                 Container(
-                  height: 150,
-                  width: 150,
+                  height: 145,
+                  width: 145,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(10),
@@ -91,43 +91,42 @@ class _MainPageState extends State<MainPage> {
                     ],
                   ),
                   margin:
-                      EdgeInsets.only(top: 50, left: 20, right: 20, bottom: 20),
-                  child: Expanded(
-                    child: InkWell(
-                      highlightColor: Colors.transparent,
-                      splashColor: Colors.transparent,
-                      onTap: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => GerakanSholat()));
-                      },
-                      child: Column(
-                        children: [
-                          Image(
-                            image: AssetImage("assets/images/bg_gerakan.jpg"),
-                            height: 120,
-                            width: 120,
-                          ),
-                          SizedBox(height: 5),
-                          Text(
-                            "Gerakan Sholat",
-                            style: TextStyle(
-                                fontSize: 14, fontWeight: FontWeight.bold),
-                          ),
-                        ],
-                      ),
+                      EdgeInsets.only(top: 50, left: 10, right: 10, bottom: 10),
+                  child: InkWell(
+                    highlightColor: Colors.transparent,
+                    splashColor: Colors.transparent,
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => GerakanSholat()));
+                    },
+                    child: Column(
+                      children: [
+                        Image(
+                          image: AssetImage("assets/images/bg_gerakan.jpg"),
+                          height: 120,
+                          width: 120,
+                        ),
+                        SizedBox(height: 5),
+                        Text(
+                          "Gerakan Sholat",
+                          style: TextStyle(
+                              fontSize: 14, fontWeight: FontWeight.bold),
+                        ),
+                      ],
                     ),
                   ),
                 ),
               ],
             ),
             Row(
-              //ROW 1
+              //ROW 2
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Container(
-                  height: 150,
-                  width: 150,
+                  height: 145,
+                  width: 145,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(10),
@@ -140,7 +139,7 @@ class _MainPageState extends State<MainPage> {
                     ],
                   ),
                   margin:
-                      EdgeInsets.only(top: 50, left: 20, right: 20, bottom: 20),
+                      EdgeInsets.only(top: 50, left: 10, right: 10, bottom: 10),
                   child: Expanded(
                     child: InkWell(
                       highlightColor: Colors.transparent,
@@ -170,8 +169,8 @@ class _MainPageState extends State<MainPage> {
                   ),
                 ),
                 Container(
-                  height: 150,
-                  width: 150,
+                  height: 145,
+                  width: 145,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(10),
@@ -184,7 +183,7 @@ class _MainPageState extends State<MainPage> {
                     ],
                   ),
                   margin:
-                      EdgeInsets.only(top: 50, left: 20, right: 20, bottom: 20),
+                      EdgeInsets.only(top: 50, left: 10, right: 10, bottom: 10),
                   child: Expanded(
                     child: InkWell(
                       highlightColor: Colors.transparent,

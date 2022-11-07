@@ -215,7 +215,7 @@ class HomeQuran extends StatelessWidget {
                                             Text(
                                               'Al-Quran',
                                               style: GoogleFonts.kreon(
-                                                fontSize: 40,
+                                                fontSize: 35,
                                                 color: Colors.white,
                                                 fontWeight: FontWeight.bold,
                                               ),

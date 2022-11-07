@@ -12,6 +12,7 @@ class AlertDialogMenu extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double maxHeight = MediaQuery.of(context).size.height * 1;
     return AlertDialog(
       backgroundColor: Color.fromARGB(255, 148, 201, 236),
       shape: RoundedRectangleBorder(
@@ -21,8 +22,10 @@ class AlertDialogMenu extends StatelessWidget {
       )),
       content: SingleChildScrollView(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Container(
                   height: 150,
@@ -39,7 +42,7 @@ class AlertDialogMenu extends StatelessWidget {
                     ],
                   ),
                   margin:
-                      EdgeInsets.all(50),
+                      EdgeInsets.all(40),
                   child: Expanded(
                     child: InkWell(
                       highlightColor: Colors.transparent,
@@ -87,7 +90,7 @@ class AlertDialogMenu extends StatelessWidget {
                     ],
                   ),
                   margin:
-                      EdgeInsets.all(50),
+                      EdgeInsets.all(40),
                   child: Expanded(
                     child: InkWell(
                       highlightColor: Colors.transparent,
