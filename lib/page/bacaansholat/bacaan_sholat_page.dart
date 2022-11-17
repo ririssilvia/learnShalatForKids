@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:aplikasibelajarsholat/model/model_bacaan.dart';
 import 'package:flutter/material.dart';
+// ignore: library_prefixes
 import 'package:flutter/services.dart' as rootBundle;
 import 'package:google_fonts/google_fonts.dart';
 
@@ -9,6 +10,7 @@ class BacaanSholat extends StatefulWidget {
   const BacaanSholat({Key? key}) : super(key: key);
 
   @override
+  // ignore: library_private_types_in_public_api
   _BacaanSholatState createState() => _BacaanSholatState();
 }
 

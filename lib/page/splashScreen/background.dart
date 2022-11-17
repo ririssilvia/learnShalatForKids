@@ -25,7 +25,7 @@ class Background extends StatelessWidget {
                 height: 100,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(50),
-                    color: Color.fromARGB(255, 100, 111, 184)),
+                    color: const Color.fromARGB(255, 100, 111, 184)),
               )),
           Positioned(
               top: -50,
@@ -35,7 +35,7 @@ class Background extends StatelessWidget {
                 height: 200,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(100),
-                   color: Color.fromARGB(255, 100, 111, 184))
+                   color: const Color.fromARGB(255, 100, 111, 184))
               )),
           Positioned(
               top: 650,
@@ -45,7 +45,7 @@ class Background extends StatelessWidget {
                 height: 200,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(100),
-                    color: Color.fromARGB(255, 100, 111, 184)),
+                    color: const Color.fromARGB(255, 100, 111, 184)),
               )),
           child,
         ],
